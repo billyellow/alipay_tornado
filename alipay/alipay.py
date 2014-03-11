@@ -187,6 +187,7 @@ def notify_verify(request):
     params['is_total_fee_adjust'] = request.get_argument('is_total_fee_adjust', '')
     params['use_coupon'] = request.get_argument('use_coupon', '')
     params['body'] = request.get_argument('body', '')
+    params['exterface'] = request.get_argument('exterface', '')
     params['out_trade_no'] = request.get_argument('out_trade_no', '')
     params['payment_type'] = request.get_argument('payment_type', '')
     params['logistics_type'] = request.get_argument('logistics_type', '')
